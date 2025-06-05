@@ -1,10 +1,9 @@
 # cli_tool.py
 
 import argparse
-from models import Task, User
 
-##for local pytest
-# from lib.models import Task, User
+#for local pytest
+from lib.models import Task, User
 
 # Global dictionary to store users and their tasks
 users = {}
